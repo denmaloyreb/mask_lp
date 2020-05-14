@@ -1,0 +1,42 @@
+.courier {
+    min-height: 640px;
+    position: relative;
+    background-image: url(../img/courier-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.courier-text {
+    position: absolute;
+    margin-top: 215px;
+    margin-left: 260px;
+    box-shadow: 0px 12px 26px rgba(70, 70, 70, 0.3);
+    border-radius: 10px;
+    background: white;
+}
+
+.courier-text__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 43px;
+    color: #2e2828;
+    max-width: 500px;
+    margin-top: 10%;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 90px;
+}
+
+.courier-text__description {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #1797B1;
+    margin-top: 10px;
+    margin-bottom: 15%;
+}

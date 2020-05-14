@@ -1,0 +1,72 @@
+.advantages {
+    min-height: 660px;
+}
+
+.advantages-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 43px;
+    line-height: 52px;
+    color: #2E2828;
+    text-align: center;
+}
+
+.advantages-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.advantages-item {
+    width: 345px;
+    height: 250px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.advantages-item-text {
+    font-family: Montserrat;
+    font-style: normal;
+    max-width: 300px;
+    position: absolute;
+    text-align: center;
+    margin-top: 48%;
+    margin-left: 10%;
+}
+
+.item-one {
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item-two {
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item-three {
+    background-image: url(../img/3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item-four {
+    background-image: url(../img/4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item-fifth {
+    background-image: url(../img/5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item-six {
+    background-image: url(../img/6.jpg);
+    background-size: cover;
+    background-position: center;
+}
